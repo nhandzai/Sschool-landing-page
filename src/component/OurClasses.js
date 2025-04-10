@@ -53,9 +53,9 @@ export default function OurClasses() {
     return (
         <section className="bg-4 text-white px-16 py-6">
             <div className="flex flex-col items-center gap-4">
-                <span className="sm:text-lg text-sm uppercase tracking-wider">Our Classes</span>
+                <span className="sm:text-lg text-sm uppercase tracking-wider font-bold">Our Classes</span>
 
-                <div className="sm:text-5xl text-2xl text-center leading-tight">
+                <div className="sm:text-5xl text-2xl text-center leading-tight font-bold">
                     <span>We Meet Kids At Their Level</span><br />
                     <span>Regardless Of Their Age</span>
                 </div>

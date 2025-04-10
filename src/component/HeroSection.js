@@ -1,7 +1,7 @@
 export default function HeroSection() {
     return (
         <section className="flex gap-4 justify-center md:items-center flex-col">
-            <span className="text-4">Welcome To SSchool</span>
+            <span className="text-4 font-bold">Welcome To SSchool</span>
 
             <div className="text-5xl font-bold text-3 flex flex-col">
                 <span>Trial Class For Free</span>
