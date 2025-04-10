@@ -30,7 +30,7 @@ export default function SideBar({ isSidebarOpen, setIsSidebarOpen }) {
 
             </section>
 
-            <section className="sm:w-170 w-300 h-screen bg-5 sm:p-8 p-1 flex flex-col gap-5 overflow-auto">
+            <section className="sm:w-170 w-300 h-screen bg-5 sm:p-8 p-4 flex flex-col gap-5 overflow-auto">
                 <section className="flex items-center justify-between">
 
                     <Image

@@ -28,7 +28,7 @@ export default function HeaderStick() {
     };
 
     return (
-        <header className="h-16 bg-white w-screen flex flex-row gap-4 items-center justify-between px-16 sticky top-0 z-40">
+        <header className="h-16 bg-white w-screen flex flex-row gap-4 items-center justify-between sm:px-16 px-4 sticky top-0 z-40">
             <Image
                 src="/images/logo-1.png"
                 width={150}

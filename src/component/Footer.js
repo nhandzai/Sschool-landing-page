@@ -5,7 +5,7 @@ import { BsSend } from "react-icons/bs";
 
 export default function Footer() {
     return (
-        <footer className="flex flex-row flex-wrap px-16 justify-between p-4 sm:py-30 py-20 text-3 bg-1">
+        <footer className="flex flex-row flex-wrap sm:px-16 px-4 justify-between p-4 sm:py-30 py-20 text-3 bg-1">
 
             <section className='flex flex-col gap-4 '>
                 <div className="border-b-4 border-transparent border-b my-border-image pb-4 h-15 text-2xl font-bold  flex items-center">

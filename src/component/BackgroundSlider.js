@@ -18,7 +18,7 @@ export default function BackgroundSlider() {
             ></div>
 
 
-            <div className="absolute inset-0 flex items-center sm:left-20 left-10  z-10">
+            <div className="absolute inset-0 flex items-center sm:left-20 left-4  z-10">
                 <HeroSection/>
             </div>
         </div>

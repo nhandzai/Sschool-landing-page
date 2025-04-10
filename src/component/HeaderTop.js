@@ -3,7 +3,7 @@ import { FaTwitter, FaFacebook, FaInstagram , FaGithub } from "react-icons/fa";
 
 export default function HeaderTop() {
     return (
-        <header className="bg-2 w-screen h-15 md:flex flex-row gap-4 items-center justify-between px-16 hidden text-white">
+        <header className="bg-2 w-screen h-15 md:flex flex-row gap-4 items-center justify-between sm:px-16 px-4 hidden text-white">
             <div className="flex flex-row gap-4">
                 <div className="flex flex-row text-center h-10 items-center gap-2">
                     <CiLocationOn color="white" />
