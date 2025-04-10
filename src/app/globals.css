@@ -10,7 +10,7 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-  --color-1: #FDFBEE;
+  --color-1: #FFFFFF;
   --color-2: #57B4BA;
   --color-3: #015551;
   --color-4: #fc6e47;
@@ -25,7 +25,6 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
-
 
 @keyframes fade {
   0%   { opacity: 0; }
@@ -58,3 +57,7 @@ body {
   animation: slide 9s infinite ease-in-out;
 }
 
+.my-border-image{
+  border-image: linear-gradient(90deg, #fc6e47 4.85%, rgba(201, 203, 223, 0) 96.39%);
+  border-image-slice: 4;
+}

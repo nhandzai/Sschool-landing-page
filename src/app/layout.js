@@ -1,6 +1,7 @@
 import './globals.css';
 import HeaderTop from '@/component/HeaderTop';
 import HeaderStick from '@/component/HeaderStick';
+import Footer from '@/component/Footer';
 
 export default function RootLayout({ children }) {
   return (
@@ -10,6 +11,7 @@ export default function RootLayout({ children }) {
         <HeaderTop />
         <HeaderStick />
         {children}
+        <Footer />
       </body>
     </html>
   );
