@@ -42,14 +42,14 @@ export default function HeaderStick() {
                             key={index}
                             className="relative group flex flex-row items-center py-5"
                         >
-                            <a className="cursor-pointer">{item.name}</a>
+                            <a className="cursor-pointer text-3">{item.name}</a>
                             {item.submenu && <IoIosArrowDown className="ml-1" />}
                             {item.submenu && (
                                 <ul className="absolute left-0 top-10 mt-2 w-40 bg-white shadow-lg transition-all duration-300 ease-in-out opacity-0 scale-95 group-hover:opacity-100 group-hover:scale-100 group-hover:block pointer-events-none group-hover:pointer-events-auto">
                                     {item.submenu.map((subItem, subIndex) => (
                                         <li
                                             key={subIndex}
-                                            className="px-4 py-2 hover:bg-4 hover:text-white cursor-pointer"
+                                            className="px-4 py-2 hover:bg-4 hover:text-white cursor-pointer text-3"
                                         >
                                             {subItem}
                                         </li>
