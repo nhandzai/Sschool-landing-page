@@ -2,7 +2,7 @@ import { TbTargetArrow, TbBook  } from "react-icons/tb";
 
 export default function AboutUs() {
     return (
-        <section className="flex lg:flex-row flex-col sm:px-16 justify-between items-center ">
+        <section className="flex lg:flex-row flex-col px-16 justify-between items-center ">
             <div className="relative w-120 ">
                 <img
                     src="/images/01.jpg"
@@ -14,9 +14,10 @@ export default function AboutUs() {
             <section className="flex gap-4 justify-center flex-col lg:w-1/2 items-center lg:items-start">
                 <span className="text-4">About Us</span>
 
-                <div className="sm:text-5xl text-2xl  font-bold text-3 flex flex-col">
-                    <span>
-                        Welcome To Best  <span className="text-4">SSchool</span>
+                <div className="sm:text-5xl text-2xl  font-bold text-3 flex flex-col sm:items-start items-center">
+                    <span className="flex flex-col sm:items-start items-center">
+                        Welcome To Best  
+                        <span className="text-4">SSchool</span>
                     </span>
                     <span className="sm:text-center">For Your Child</span>
                 </div>

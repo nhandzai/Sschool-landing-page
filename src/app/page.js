@@ -5,7 +5,7 @@ import ScrollToTop from "@/component/ScrollToTop";
 
 export default function Home() {
   return (
-    <main className="flex flex-col gap-20 ">
+    <main className="flex flex-col gap-20 overflow-x-hidden">
       <ScrollToTop />
       <BackgroundSlider />
       <AboutUs />
